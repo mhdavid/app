@@ -1,0 +1,25 @@
+{
+  "name": "jazz-framework/app",
+  "description": "The Jazz Framework Application.",
+  "keywords": ["framework", "jazz", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Adriel Vieira",
+      "email": "ahdriel@gmail.com"
+    },
+    {
+      "name": "Márcio H. David",
+      "email": "mhdavid@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jazz\\": "vendor/jazz-framework/jazz/src/Jazz/",
+      "App\\": "app/"
+    },
+    "files": [
+      "vendor/jazz-framework/jazz/src/helpers.php"
+    ]
+  }
+}
